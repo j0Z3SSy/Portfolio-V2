@@ -303,34 +303,68 @@ margin-right: 12%;
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /*For Responsivness */
+/* ... your existing styles ... */
+
+/* Adjust font sizes for better responsiveness */
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 8vw;
+    font-size: 3vw;
   }
 
   h3 {
     font-size: 4vw;
-    letter-spacing: 10px;
+    letter-spacing: 1px;
   }
 
-  p {
-    font-size: 3vw;
+  h4 {
+    font-size: 2vw;
+  }
+
+  h5 {
+    font-size: 2vw;
   }
 
   .p-left {
-    font-size: 2vw;
+    font-size: 1.7vw;
+  }
+
+  .p-center {
+    font-size: 1.5vw;
+  }
+
+  b{
+    font-size: 1.5vw;
+  }
+  strong{
+    font-size: 1.5vw;
+  }
+  i{
+    font-size: 1.5vw;
   }
 
   .flex-container {
     flex-direction: column;
   }
 
-  .flex-item-1-left-menu,
-  .flex-item-2-center-content,
+  /* Adjust width and margin for better positioning on smaller screens */
   .flex-item-3-right-menu {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
+    margin-left: 92%;
+    
+  }
+
+  .right-menu-logo a{
+    line-height: 10%;
+  }
+  
+  .logo-small {
+    width: 3.2vw; /* Set the desired width for the smaller logos */
+    height: auto; /* Maintain the aspect ratio */
+  }
+
+  /* Set max-width for images to ensure they fit within the screen */
+  .image-1 {
+    max-width: 30vw;
+    height: auto;
   }
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
