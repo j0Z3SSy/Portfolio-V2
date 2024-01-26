@@ -1,9 +1,0 @@
-Idea:
-jotain mitä näyttää ja jakaa työhaastatteluissa.
-
-Tehtävät:
-Fontit paremmiks
-Varjot pois
-Kännykälle toimivaks
-Stailaus eti joku hyvä referenssi sivu!
-Ota bootstrappia käyttöön
