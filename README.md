@@ -1,4 +1,4 @@
-### Project:Portfolio-V2 ###
+### Project: Portfolio-V2 ###
 
 ## Ideas ##
 - jotain mitä näyttää ja jakaa työhaastatteluissa.
